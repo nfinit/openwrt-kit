@@ -1,3 +1,3 @@
 uptime | sed 's/^ //g'
 iwclients
-tmux-sessions
+[ -z $TMUX ] && tmux-sessions
